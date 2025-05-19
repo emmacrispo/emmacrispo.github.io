@@ -5,18 +5,28 @@ body {
   color: #333;
 }
 
+/* Green theme example */
 body {
-  background-color: #fff5ec;   /* soft peach */
-  color: #3b3b3b;              /* dark gray text */
+  background-color: #e8f5e9;  /* soft light green background */
+  color: #2c6e49;             /* dark green text */
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 h1, h2 {
-  color: #ff6b6b;              /* coral red */
+  color: #388e3c;  /* medium green for headings */
 }
 
 a {
-  color: #1e90ff;              /* dodger blue */
+  color: #1b5e20;  /* deep green for links */
+  text-decoration: none;  /* remove underline from links */
 }
+
+a:hover {
+  color: #4caf50;  /* bright green on hover */
+}
+
 
 @import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
 
