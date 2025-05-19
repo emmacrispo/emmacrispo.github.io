@@ -5,6 +5,19 @@ body {
   color: #333;
 }
 
+body {
+  background-color: #fff5ec;   /* soft peach */
+  color: #3b3b3b;              /* dark gray text */
+}
+
+h1, h2 {
+  color: #ff6b6b;              /* coral red */
+}
+
+a {
+  color: #1e90ff;              /* dodger blue */
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
 
 #about {
