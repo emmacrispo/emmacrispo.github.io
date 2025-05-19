@@ -5,6 +5,19 @@ body {
   color: #333;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+#about {
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+  max-width: 700px;
+  margin: 100px auto;
+  padding: 20px;
+  line-height: 1.6;
+  font-size: 18px;
+  color: #333;
+}
+
 .container {
   width: 90%;
   max-width: 800px;
