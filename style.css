@@ -5,26 +5,26 @@ body {
   color: #333;
 }
 
-/* Green theme example */
-body {
-  background-color: #e8f5e9;  /* soft light green background */
-  color: #2c6e49;             /* dark green text */
+header {
+  background-color: #0b3d91; /* deep navy blue */
+  color: #f5f5f5;           /* soft white text */
+  padding: 40px 20px;
+  text-align: center;
+  border-bottom: 5px solid #c0a36e; /* gold/brass accent line */
   font-family: 'Montserrat', sans-serif;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
   margin: 0;
-  padding: 0;
+  font-size: 2.5em;
 }
 
-h1, h2 {
-  color: #388e3c;  /* medium green for headings */
-}
-
-a {
-  color: #1b5e20;  /* deep green for links */
-  text-decoration: none;  /* remove underline from links */
-}
-
-a:hover {
-  color: #4caf50;  /* bright green on hover */
+header h2 {
+  margin: 10px 0 0;
+  font-size: 1.5em;
+  font-weight: 300;
+  color: #e0e0e0; /* lighter for subheading */
 }
 
 
