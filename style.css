@@ -94,3 +94,29 @@ footer {
 .contact-info span {
   font-size: 20px;
 }
+
+#soft-skills {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #d4edda; /* light green */
+  padding: 40px 20px;
+  margin: 60px auto;
+  max-width: 700px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+#soft-skills h2 {
+  color: #1e5631; /* forest green */
+  margin-bottom: 20px;
+}
+
+#soft-skills ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  text-align: left;
+  color: #2e3d30; /* dark gray-green */
+  font-size: 18px;
+  line-height: 1.6;
+  display: inline-block;
+}
