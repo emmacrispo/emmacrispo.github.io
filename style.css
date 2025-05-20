@@ -84,6 +84,7 @@ footer {
 }
 
 .contact-info p {
+  text-align: center;
   font-size: 16px;
   margin: 10px 0;
   display: flex;
