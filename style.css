@@ -81,23 +81,47 @@ body {
   color: midnightblue;
 }
 
-#experience .experience-entry {
+#experience ul {
+  list-style: none;
+  padding: 0;
+  max-width: 700px;
+  margin: 0 auto;
   text-align: center;
-  margin-bottom: 40px;
 }
 
-#experience .experience-entry .date {
+#experience li {
+  margin-bottom: 30px;
+}
+
+#experience .date {
   font-weight: bold;
   font-size: 16px;
   color: midnightblue;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 
-#experience .experience-entry .description {
-  max-width: 700px;
-  margin: 0 auto;
+#experience .description {
   font-size: 17px;
   line-height: 1.5;
+}
+
+/* Skills Section */
+#skills {
+  background-color: ivory;
+  color: midnightblue;
+  text-align: center;
+}
+
+#skills ul {
+  list-style: none;
+  padding: 0;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+#skills li {
+  margin-bottom: 15px;
+  font-size: 17px;
 }
 
 /* Contact Section (inverted theme) */
@@ -140,7 +164,8 @@ body {
     padding: 0 10px;
   }
 
-  .experience-entry .description {
+  #experience .description,
+  #skills li {
     font-size: 16px;
   }
 
