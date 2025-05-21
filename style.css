@@ -119,6 +119,7 @@ footer {
 #soft-skills h2 {
   color: Midnightblue
   margin-bottom: 20px;
+  text-align: center;
 }
 
 #soft-skills ul {
@@ -140,7 +141,7 @@ html {
   top: 0;
   left: 0;
   width: 100%;
-  background-color: #0329ff; /* royal blue */
+  background-color: Mignightblue
   z-index: 1000;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
 }
@@ -159,8 +160,8 @@ html {
 
 .top-nav a {
   display: block;
-  padding: 20px 0;
-  color: #ffffff;
+  padding: 40px 0;
+  color: Ivory;
   text-decoration: none;
   font-family: 'Montserrat', sans-serif;
   font-size: 16px;
