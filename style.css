@@ -6,7 +6,7 @@
 }
 
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Nanum Myeongjo';
   background-color: ivory;
   color: midnightblue;
   line-height: 1.6;
@@ -15,6 +15,7 @@ body {
 
 /* Titles */
 h1, h2, h3 {
+  font-family: 'Poiret One';
   text-align: center;
   margin-top: 40px;
   margin-bottom: 20px;
