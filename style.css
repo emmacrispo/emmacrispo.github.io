@@ -5,6 +5,26 @@
   box-sizing: border-box;
 }
 
+.download-btn {
+  display: inline-block;
+  margin: 20px auto;
+  padding: 12px 24px;
+  background-color: midnightblue;
+  color: ivory;
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: none;
+  border-radius: 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  text-align: center;
+}
+
+.download-btn:hover {
+  background-color: gold;
+  transform: translateY(-2px);
+}
+
 body {
   font-family: 'Nanum Myeongjo';
   background-color: ivory;
