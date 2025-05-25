@@ -6,7 +6,7 @@
 }
 
 body {
-  font-family: 'Nanum Myeongjo';
+  font-family: 'Montserrat', sans-serif;
   background-color: ivory;
   color: midnightblue;
   line-height: 1.6;
@@ -16,8 +16,6 @@ body {
 /* Titles */
 h1, h2, h3 {
   text-align: center;
-  font-family: 'Poiret One';
-  font-size: 22px;
   margin-top: 40px;
   margin-bottom: 20px;
   font-weight: 600;
@@ -73,28 +71,8 @@ nav a:hover {
   color: #ffdd57;
 }
 
-.download-btn {
-  display: inline-block;
-  margin: 20px auto;
-  padding: 12px 24px;
-  background-color: midnightblue;
-  color: ivory;
-  font-size: 16px;
-  font-weight: 500;
-  text-decoration: none;
-  border-radius: 30px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  transition: background-color 0.3s ease, transform 0.2s ease;
-  text-align: center;
-}
-
-.download-btn:hover {
-  background-color: gold;
-  transform: translateY(-2px);
-}
-
 body {
-  padding-top: 80px; /* for fixed nav */
+  padding-top: 80px;
 }
 
 /* Experience Section */
@@ -103,28 +81,45 @@ body {
   color: midnightblue;
 }
 
-#experience ul {
-  padding: 0;
-  max-width: 700px;
+.experience-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 40px;
+  max-width: 1000px;
   margin: 0 auto;
+  padding: 20px;
+}
+
+.experience-entry {
   text-align: center;
-  list-style: none;
 }
 
-#experience li {
-  margin-bottom: 30px;
+.experience-entry a img {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+  border-radius: 12px;
+  border: 3px solid gold;
+  margin-bottom: 10px;
+  transition: transform 0.3s ease;
 }
 
-#experience .date {
+.experience-entry a:hover img {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px gold;
+}
+
+.experience-entry .date {
   font-weight: bold;
   font-size: 16px;
-  color: midnightblue;
   margin-bottom: 5px;
 }
 
-#experience .description {
+.experience-entry .description {
   font-size: 17px;
   line-height: 1.5;
+  max-width: 90%;
+  margin: 0 auto;
 }
 
 /* Skills Section */
@@ -135,10 +130,10 @@ body {
 }
 
 #skills ul {
+  list-style: none;
   padding: 0;
   max-width: 700px;
   margin: 0 auto;
-  list-style: none;
 }
 
 #skills li {
@@ -146,7 +141,7 @@ body {
   font-size: 17px;
 }
 
-/* Contact Section (inverted theme) */
+/* Contact Section */
 #contact {
   background-color: midnightblue;
   color: ivory;
@@ -175,6 +170,27 @@ body {
   box-shadow: 0 0 20px gold;
 }
 
+/* Resume Download Button */
+.download-btn {
+  display: inline-block;
+  margin: 20px auto;
+  padding: 12px 24px;
+  background-color: midnightblue;
+  color: ivory;
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: none;
+  border-radius: 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  text-align: center;
+}
+
+.download-btn:hover {
+  background-color: #001f4d;
+  transform: translateY(-2px);
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
   h1, h2, h3 {
@@ -186,7 +202,13 @@ body {
     padding: 0 10px;
   }
 
-  #experience .description,
+  nav ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .experience-entry .description,
   #skills li {
     font-size: 16px;
   }
+}
