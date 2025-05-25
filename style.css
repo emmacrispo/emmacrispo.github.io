@@ -132,13 +132,13 @@ body {
   background-color: ivory;
   color: midnightblue;
   text-align: center;
-  list-style: none;
 }
 
 #skills ul {
   padding: 0;
   max-width: 700px;
   margin: 0 auto;
+  list-style: none;
 }
 
 #skills li {
