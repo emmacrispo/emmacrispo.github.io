@@ -146,10 +146,20 @@ body {
 #contact {
   background-color: midnightblue;
   color: ivory;
+  text-align: center;
 }
 
-#contact p, 
 #contact h2 {
+  color: ivory;
+  margin-bottom: 20px;
+}
+
+.contact-info {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  font-size: 18px;
   color: ivory;
 }
 
