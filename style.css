@@ -157,7 +157,7 @@ body {
 .contact-info {
   display: flex;
   justify-content: center;
-  gap: 40px;
+  gap: 30px;
   flex-wrap: wrap;
   font-size: 18px;
   color: ivory;
