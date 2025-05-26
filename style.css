@@ -190,6 +190,7 @@ body {
 .download-btn:hover {
   background-color: #001f4d;
   transform: translateY(-2px);
+  text-align: center;
 }
 
 /* Responsive Design */
